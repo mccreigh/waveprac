@@ -7,11 +7,11 @@ http://paos.colorado.edu/research/wavelets/
 
 This package is not ready to build. I'm using devtools to develop it
 https://github.com/hadley/devtools
-Once you download and unpack it
-R CMD INSTALL hadley-devtools-1234567
+Once you download and unpack it, command line:
+`$ R CMD INSTALL hadley-devtools-1234567`
 
-In R
-require(devtools)
+In R:
+`require(devtools)`
 then see examples.r for loading the development package and data and running some things. 
 
 I'm not sure if DESCRIPTION will force its dependencies. The current package depenedencies are
