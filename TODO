@@ -1,0 +1,16 @@
+
+Documentation
+
+More examples
+
+Play nice with the TimeSeries package?
+
+rename functions to not use dots?? 
+
+rename evenPOSIXct?? to something more descriptive? should probably include word "year" since each year is divide evenly.
+
+Formalize Tests:
+use testthat package,
+tests against output from the original code,
+corner cases for S4 objects, like 0 length
+

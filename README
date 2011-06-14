@@ -1,0 +1,13 @@
+See DESCRIPTION for logistics and credits. 
+See TODO for things that need to be done.
+
+The current version of waveprac is early beta. Much needs to be done. 
+I have checked that I reproduce the results of the IDL code of Torrence and Compo for the basic wavelet transforms. However this should be formalized as a test. 
+
+Please feel free to let me know about issues, suggestions, new code, etc... this is github.
+
+Some notes on where things stand:
+enhanced.warm simulation is not right.
+enhanced.warm prediction is highly experimental.
+
+

@@ -1,0 +1,43 @@
+Package: waveprac
+Title: Pratical wavelet analysis.
+Version: 0.1
+Author: James McCreight <mccreigh@gmail.com>
+Maintainer: James McCreight <mccreigh@gmail.com>
+Description: An R implementation of "A Practical Guide to Wavelet Analysis" by C Torrence and G Compo. 
+	     Additional codes in R by James McCreight.
+	     The R source code at https://github.com/mccreigh/waveprac.
+	     Please acknowledge the use of the software in any publications:
+	     ``Wavelet software was provided by C. Torrence and G. Compo, 
+               and is available at URL: http://paos.colorado.edu/research/wavelets/''.
+             Reference: 
+	     Torrence, C. and G. P. Compo, 1998: A Practical Guide to  Wavelet Analysis. 
+               Bull. Amer. Meteor. Soc.</I>, 79, 61-78.
+	      Please send a copy of such publications to either C. Torrence or G. Compo:
+	        Dr. Christopher Torrence               Dr. Gilbert P. Compo
+		Research Systems, Inc.                 Climate Diagnostics Center
+		4990 Pearl East Circle                 325 Broadway R/CDC1
+		Boulder, CO 80301, USA                 Boulder, CO 80305-3328, USA
+		E-mail: chris[AT]rsinc[DOT]com         E-mail: compo[AT]colorado[DOT]edu
+Depends: ggplot2, RColorBrewer, plyr, multicore
+License: MIT
+Collate: 
+	 'set.accessors.r'
+	 'waveprac.r'
+	 'evenPOSIXct.r'
+	 "ts.subset.r"
+	 "check.new.dev.r"
+	 "choose.lapply.r"
+	 "ts.anomaly.r"
+	 'wavelet.r'
+	 'subset.wt.r'
+	 "waveSignif.r"
+	 "check.wt.variance.r"
+	 "ggWavelet.r"
+	 "scale.avg.wt.r"
+	 "ggFilter.r"
+	 "waveletFilter.r"
+	 "knnFill.r"
+	 "filterField.r"
+	 "waveletCoherence.r"
+	 "ggCoherence.r"
+	 "enhanced.warm.r"
