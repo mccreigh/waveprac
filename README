@@ -3,7 +3,7 @@ This is an R port and extension of
 "A Practical Guide to Wavelet Analysis"
 by C. Torrence and and G. P. Compo, 
 1998: Bull. Amer. Meteor. Soc., 79, 61-78.
-http://paos.colorado.edu/research/wavelets/''.
+http://paos.colorado.edu/research/wavelets/
 
 This package is not ready to build. I'm using devtools to develop it
 https://github.com/hadley/devtools
