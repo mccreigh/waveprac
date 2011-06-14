@@ -1,3 +1,17 @@
+This package is not ready to build. I'm using devtools to develop it
+https://github.com/hadley/devtools
+Once you download and unpack it
+R CMD INSTALL hadley-devtools-1234567
+
+In R
+require(devtools)
+then see examples.r for loading the development package and data and running some things. 
+
+I'm not sure if DESCRIPTION will force its dependencies. The current package depenedencies are
+ggplot2
+plyr
+multicore (if you want to use more than 1 core on a multicore machine)
+
 See DESCRIPTION for logistics and credits. 
 See TODO for things that need to be done.
 
