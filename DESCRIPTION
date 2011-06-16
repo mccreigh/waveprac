@@ -36,8 +36,6 @@ Collate:
 	 "scale.avg.wt.r"
 	 "ggFilter.r"
 	 "waveletFilter.r"
-	 "knnFill.r"
 	 "filterField.r"
 	 "waveletCoherence.r"
 	 "ggCoherence.r"
-	 "enhanced.warm.r"
