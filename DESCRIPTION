@@ -1,8 +1,8 @@
 Package: waveprac
 Title: Pratical wavelet analysis.
 Version: 0.1
-Author: James McCreight <mccreigh@gmail.com>
-Maintainer: James McCreight <mccreigh@gmail.com>
+Author: James McCreight <mccreigh@at@gmail.dot.com>
+Maintainer: James McCreight <mccreigh@at@gmail.dot.com>
 Description: An R implementation of "A Practical Guide to Wavelet Analysis" by C Torrence and G Compo. 
 	     Additional codes in R by James McCreight.
 	     The R source code at https://github.com/mccreigh/waveprac.
@@ -18,7 +18,7 @@ Description: An R implementation of "A Practical Guide to Wavelet Analysis" by C
 		4990 Pearl East Circle                 325 Broadway R/CDC1
 		Boulder, CO 80301, USA                 Boulder, CO 80305-3328, USA
 		E-mail: chris[AT]rsinc[DOT]com         E-mail: compo[AT]colorado[DOT]edu
-Depends: ggplot2, RColorBrewer, plyr, multicore
+Depends: stats, grDevices, ggplot2, RColorBrewer, plyr, multicore
 License: MIT
 Collate: 
 	 'set.accessors.r'
