@@ -1,14 +1,14 @@
 ## The primary internal setup for waveprac
 
 ## imports - should I be more specific??
+require('stats')
 require('ggplot2')
 require('RColorBrewer')
 require('plyr')
 require('multicore')
+require('grDevices')
 
 ## EOF depends on waveprac (any routines using both should then be sourced in this file.)
-
-
 
 ## variable definition since lubridate's ruins normal POSIXct functionality
 origin=as.POSIXct( 0, origin='1970-01-01', tz='UTC' )
